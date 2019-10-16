@@ -1,2 +1,2 @@
-# Responsive-Portfolio2
-Responsive-Portfolio2
+# Responsive-Portfolio
+Responsive-Portfolio

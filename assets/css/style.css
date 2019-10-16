@@ -1,0 +1,231 @@
+.images {
+  position: relative;
+  padding: 25px;
+}
+
+.image1 {
+float: left;
+border: solid;
+margin-right: 16px;
+margin-bottom: 16px;
+}
+
+
+.header {
+margin-bottom: 20px;
+position: top;
+height: 15px;
+color: #777777;
+background-color:white}
+
+.nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+font-size: 14px;
+background-color: white !important;
+display: block;
+color:grey;
+float: right;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.JohnMish {
+background-color: teal !important;
+width: 85%;
+margin-left: 150px;
+height: 45px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+color: white;
+}
+
+
+.container {
+  background: #ffffff;
+  border: solid;
+  width: 960px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  word-wrap: normal;
+  height: 500px;
+  float: center;
+  margin-bottom: 100px;;
+}
+
+.container2 {
+  background: #ffffff;
+  border: solid;
+  width: 960px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  word-wrap: normal;
+  height: 800px;
+  float: center;
+  margin-bottom: 100px;    
+
+      position: relative;
+    }
+    
+    .text-block1 {
+      position: absolute;
+      top: 260px;
+      left: 10px;
+      background-color: teal;
+      width: 200px;
+      height: 50px;
+      color: white;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: 10px;
+    }
+
+    .text-block2 {
+      position: absolute;
+      top: 260px;
+      left: 214px;
+      background-color: teal;
+      width: 200px;
+      height: 50px;
+      color: white;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: 10px;
+    }
+    .text-block3 {
+      position: absolute;
+      top: 490px;
+      left: 10px;
+      background-color: teal;
+      width: 200px;
+      height: 50px;
+      color: white;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: 10px;
+    }
+
+    .text-block4 {
+      position: absolute;
+      top: 490px;
+      left: 214px;
+      background-color: teal;
+      width: 200px;
+      height: 50px;
+      color: white;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: 10px;
+    }
+
+    .text-block5 {
+      position: absolute;
+      top: 715px;
+      left: 10px;
+      background-color: teal;
+      width: 200px;
+      height: 50px;
+      color: white;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: 10px;
+    }
+
+
+
+.about {
+  word-wrap: normal;
+  float: right;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fullpage {
+    background-image: url(circle-blues.png);
+    width: 100%;
+    height: 1000px;
+
+}
+
+.foot {
+  background-color:#666666;
+  width: 100%;
+  height: 50px;
+  padding: 25px;
+  border-top: thick;
+  border: 1px solid white;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  
+
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.nameinput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.nameinput2 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 160px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;}
+
+
+  @media only screen and (max-width: 980px) {
+    body {
+      background-color: red;
+    }
+    
+  }@media only screen and (max-width: 768px) {
+    body {
+      background-color: green;
+    }
+  
+  }@media only screen and (max-width: 640px) {
+    header {
+      position: static;
+    }
